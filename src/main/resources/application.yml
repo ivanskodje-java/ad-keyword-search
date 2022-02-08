@@ -1,0 +1,25 @@
+ad-keyword-search:
+  default-page-size: 1000
+
+spring:
+  application:
+    name: ad-keyword-search
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+      INDENT_OUTPUT: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+resilience4j.retry:
+  instances:
+    arbeidsplassen-client:
+      maxAttempts: 3
+      waitDuration: 1ms
+
+feign:
+  arbeidsplassen:
+    url: "https://arbeidsplassen.nav.no"
