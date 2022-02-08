@@ -24,8 +24,8 @@ Run Docker: `docker run -d -p 8080:8080 nav/ad-keyword-search`
 > Requires Authorization header `Authorization: Bearer TOKEN`
 
 
-This returns a weekly report for the past 6 months, starting with the monday before and the week before current week. Will include
-weeks without any matching keys.
+This returns a weekly report for the past 6 months, starting with the monday before and the current week. 
+It will also include weeks that do not have any matching keys.
 
 `localhost:8080/api/ad/weekly-report`
 
