@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.ComponentScan;
 
-@Disabled("Helps with manual testing")
+@Disabled("For manual testing")
 @Slf4j
 @SpringBootTest
 @ComponentScan("no.nav.kodeoppgave.adkeywordsearch")

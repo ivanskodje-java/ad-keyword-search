@@ -20,7 +20,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 class GenerateAdReportWeeklyUseCaseTest {
 
   @InjectMocks
-  GenerateAdReportWeeklyUseCase generateAdReportWeeklyUseCase;
+  private GenerateAdReportWeeklyUseCase generateAdReportWeeklyUseCase;
+
   @Mock
   private AdSearch adSearch;
 

@@ -31,15 +31,4 @@ class AdReportWeeklyView {
         .keywordMentions(adReportWeekly.getKeywordMentions())
         .build();
   }
-
-  public AdReportWeekly toAdReportWeekly() {
-    return AdReportWeekly.builder()
-        .year(year)
-        .month(month)
-        .weekNumber(weekNumber)
-        .firstDayOfWeek(firstDayOfWeek)
-        .lastDayOfWeek(lastDayOfWeek)
-        .keywordMentions(keywordMentions)
-        .build();
-  }
 }

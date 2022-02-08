@@ -38,7 +38,6 @@ public class AdSearchAdapter implements AdSearch {
     return "(" + dayStart + "," + dayEnd + ")";
   }
 
-
   private class AdIterator implements Iterator<List<Ad>> {
 
     private final int size;

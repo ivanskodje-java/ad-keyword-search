@@ -1,7 +1,6 @@
 package no.nav.kodeoppgave.adkeywordsearch.adapter.in.web;
 
 import java.util.List;
-import javax.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import no.nav.kodeoppgave.adkeywordsearch.application.AdReportUseCase;
 import no.nav.kodeoppgave.adkeywordsearch.domain.AdReportWeekly;
